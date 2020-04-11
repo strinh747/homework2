@@ -1,0 +1,48 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+.container {
+    padding-top: 20px;
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+header {
+    color: teal;
+}
+
+img {
+    height: 200px;
+    width: 100%;
+}
+
+#biophoto {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.col-md-6 {
+    margin-bottom: 10px;
+}
+.caption {
+    position: absolute;
+    width: 80%;
+    top: 80%;
+    left: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
